@@ -19,6 +19,8 @@ export function Header() {
   el.appendChild(leftArrow);
 
   const date = document.createElement('input');
+  date.style.marginLeft = '8px';
+  date.style.marginRight = '8px';
   date.value = getDateString();
   date.type = "date";
   date.style.textAlign = "center"
