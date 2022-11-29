@@ -2,6 +2,7 @@ export function Events() {
   const el = document.createElement("div");
   el.style.padding = "8px";
   el.style.width = "100%";
+  el.style.overflowY = "scroll";
 
   for (let i = 0; i < 24; i++) {
     for (let j = 0; j < 4; j++) {
